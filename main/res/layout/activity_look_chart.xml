@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15sp"
+    android:orientation="vertical"
+    tools:context=".look_chart">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/chart_inf"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/income_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/income"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te1"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/income_salary_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_1"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te2"
+            android:layout_width="110sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/income_pocket_money_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_2"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te3"
+            android:layout_width="110sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/income_lucky_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_3"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te4"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/income_others_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_4"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/expenditure_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/expenditure"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te5"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/expenditure_food_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_5"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te6"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/expenditure_drinks_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_6"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te7"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/expenditure_transport_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_7"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te8"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/expenditure_medical_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_8"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te9"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/expenditure_entertainment_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_9"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/te10"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/expenditure_others_1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/te_10"
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_keep"
+            android:layout_width="185dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10sp"
+            android:onClick="keep"
+            android:text="@string/keep"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_chart"
+            android:layout_width="185dp"
+            android:layout_height="66dp"
+            android:layout_margin="10sp"
+            android:onClick="chart"
+            android:text="@string/chart"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
